@@ -8795,3 +8795,132 @@ This generated password is for development use only. Your security configuration
 2024-06-19 15:14:48 - Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-06-19 15:14:48 - HikariPool-1 - Shutdown initiated...
 2024-06-19 15:14:48 - HikariPool-1 - Shutdown completed.
+2024-06-19 15:34:23 - Could not detect default configuration classes for test class [com.revtaskmanagement.RevTask.Service.ProjectServiceTest]: ProjectServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-19 15:34:23 - Found @SpringBootConfiguration com.revtaskmanagement.RevTask.RevTaskApplication for test class com.revtaskmanagement.RevTask.Service.ProjectServiceTest
+2024-06-19 15:34:24 - Starting ProjectServiceTest using Java 22.0.1 with PID 9468 (started by prave in E:\NewProject\RevTask\RevTask)
+2024-06-19 15:34:24 - No active profile set, falling back to 1 default profile: "default"
+2024-06-19 15:34:25 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 15:34:25 - Finished Spring Data repository scanning in 70 ms. Found 7 JPA repository interfaces.
+2024-06-19 15:34:27 - HikariPool-1 - Starting...
+2024-06-19 15:34:27 - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: e6faffc7-5bfc-4a54-ba5c-4b0b0181c21d
+2024-06-19 15:34:27 - HikariPool-1 - Start completed.
+2024-06-19 15:34:28 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 15:34:28 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-19 15:34:28 - HHH000026: Second-level cache disabled
+2024-06-19 15:34:28 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-19 15:34:29 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-19 15:34:31 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 15:34:31 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-19 15:34:32 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-19 15:34:33 - Started ProjectServiceTest in 9.011 seconds (process running for 10.571)
+2024-06-19 15:34:33 - Fetching project with id: 1
+2024-06-19 15:34:33 - Project found with id: 1
+2024-06-19 15:34:33 - Updating project with id: 1
+2024-06-19 15:34:33 - Project updated successfully: Project(id=1, name=Updated Project A, description=Updated Description A, assignedDate=null, dueDate=null, projectManager=null, teamMembers=null, tasks=[], client=null, projectDetail=null)
+2024-06-19 15:34:33 - Deleting project with id: 1
+2024-06-19 15:34:33 - Project deleted with id: 1
+2024-06-19 15:34:33 - Fetching all projects
+2024-06-19 15:34:33 - Total projects found: 2
+2024-06-19 15:34:33 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 15:34:33 - HikariPool-1 - Shutdown initiated...
+2024-06-19 15:34:33 - HikariPool-1 - Shutdown completed.
+2024-06-19 15:36:55 - Could not detect default configuration classes for test class [com.revtaskmanagement.RevTask.Service.ProjectServiceTest]: ProjectServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-19 15:36:55 - Found @SpringBootConfiguration com.revtaskmanagement.RevTask.RevTaskApplication for test class com.revtaskmanagement.RevTask.Service.ProjectServiceTest
+2024-06-19 15:36:55 - Starting ProjectServiceTest using Java 22.0.1 with PID 22124 (started by prave in E:\NewProject\RevTask\RevTask)
+2024-06-19 15:36:55 - The following 1 profile is active: "test"
+2024-06-19 15:36:56 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 15:36:56 - Finished Spring Data repository scanning in 93 ms. Found 7 JPA repository interfaces.
+2024-06-19 15:36:58 - HikariPool-1 - Starting...
+2024-06-19 15:36:59 - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: a0a2f225-28f1-458d-a8ff-3c8f9f3ec402
+2024-06-19 15:36:59 - HikariPool-1 - Start completed.
+2024-06-19 15:36:59 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 15:36:59 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-19 15:36:59 - HHH000026: Second-level cache disabled
+2024-06-19 15:36:59 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-19 15:37:01 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-19 15:37:03 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 15:37:03 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-19 15:37:04 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-19 15:37:05 - Started ProjectServiceTest in 9.469 seconds (process running for 11.077)
+2024-06-19 15:37:05 - Fetching project with id: 1
+2024-06-19 15:37:05 - Project found with id: 1
+2024-06-19 15:37:05 - Updating project with id: 1
+2024-06-19 15:37:05 - Project updated successfully: Project(id=1, name=Updated Project A, description=Updated Description A, assignedDate=null, dueDate=null, projectManager=null, teamMembers=null, tasks=[], client=null, projectDetail=null)
+2024-06-19 15:37:05 - Deleting project with id: 1
+2024-06-19 15:37:05 - Project deleted with id: 1
+2024-06-19 15:37:05 - Fetching all projects
+2024-06-19 15:37:05 - Total projects found: 2
+2024-06-19 15:37:05 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 15:37:05 - HikariPool-1 - Shutdown initiated...
+2024-06-19 15:37:05 - HikariPool-1 - Shutdown completed.
+2024-06-19 15:38:15 - Could not detect default configuration classes for test class [com.revtaskmanagement.RevTask.Service.ProjectServiceTest]: ProjectServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-19 15:38:15 - Found @SpringBootConfiguration com.revtaskmanagement.RevTask.RevTaskApplication for test class com.revtaskmanagement.RevTask.Service.ProjectServiceTest
+2024-06-19 15:38:16 - Starting ProjectServiceTest using Java 22.0.1 with PID 5204 (started by prave in E:\NewProject\RevTask\RevTask)
+2024-06-19 15:38:16 - The following 1 profile is active: "test"
+2024-06-19 15:38:16 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 15:38:16 - Finished Spring Data repository scanning in 73 ms. Found 7 JPA repository interfaces.
+2024-06-19 15:38:19 - Could not detect default configuration classes for test class [com.revtaskmanagement.RevTask.RevTaskApplicationTests]: RevTaskApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-19 15:38:19 - Found @SpringBootConfiguration com.revtaskmanagement.RevTask.RevTaskApplication for test class com.revtaskmanagement.RevTask.RevTaskApplicationTests
+2024-06-19 15:38:19 - HikariPool-1 - Starting...
+2024-06-19 15:38:20 - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 64443059-1e14-4282-a321-1ddedbed17f4
+2024-06-19 15:38:20 - Starting RevTaskApplicationTests using Java 22.0.1 with PID 20476 (started by prave in E:\NewProject\RevTask\RevTask)
+2024-06-19 15:38:20 - HikariPool-1 - Start completed.
+2024-06-19 15:38:20 - No active profile set, falling back to 1 default profile: "default"
+2024-06-19 15:38:20 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 15:38:20 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-19 15:38:20 - HHH000026: Second-level cache disabled
+2024-06-19 15:38:21 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-19 15:38:21 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 15:38:21 - Finished Spring Data repository scanning in 125 ms. Found 7 JPA repository interfaces.
+2024-06-19 15:38:22 - HikariPool-1 - Starting...
+2024-06-19 15:38:22 - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: d2e67762-c441-47f1-a5cc-70f342ae0f84
+2024-06-19 15:38:22 - HikariPool-1 - Start completed.
+2024-06-19 15:38:22 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-19 15:38:22 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 15:38:22 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-19 15:38:22 - HHH000026: Second-level cache disabled
+2024-06-19 15:38:23 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-19 15:38:24 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 15:38:24 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-19 15:38:24 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-19 15:38:25 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-19 15:38:26 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 15:38:26 - Started ProjectServiceTest in 10.423 seconds (process running for 11.85)
+2024-06-19 15:38:26 - Fetching project with id: 1
+2024-06-19 15:38:26 - Project found with id: 1
+2024-06-19 15:38:26 - Updating project with id: 1
+2024-06-19 15:38:26 - Project updated successfully: Project(id=1, name=Updated Project A, description=Updated Description A, assignedDate=null, dueDate=null, projectManager=null, teamMembers=null, tasks=[], client=null, projectDetail=null)
+2024-06-19 15:38:26 - Deleting project with id: 1
+2024-06-19 15:38:26 - Project deleted with id: 1
+2024-06-19 15:38:26 - Fetching all projects
+2024-06-19 15:38:26 - Total projects found: 2
+2024-06-19 15:38:26 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 15:38:26 - HikariPool-1 - Shutdown initiated...
+2024-06-19 15:38:26 - HikariPool-1 - Shutdown completed.
+2024-06-19 15:38:26 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-19 15:38:27 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-19 15:38:28 - Started RevTaskApplicationTests in 8.583 seconds (process running for 10.426)
+2024-06-19 15:38:29 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 15:38:29 - HikariPool-1 - Shutdown initiated...
+2024-06-19 15:38:29 - HikariPool-1 - Shutdown completed.
+2024-06-19 15:54:41 - Could not detect default configuration classes for test class [com.revtaskmanagement.RevTask.RevTaskApplicationTests]: RevTaskApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-19 15:54:41 - Found @SpringBootConfiguration com.revtaskmanagement.RevTask.RevTaskApplication for test class com.revtaskmanagement.RevTask.RevTaskApplicationTests
+2024-06-19 15:54:42 - Starting RevTaskApplicationTests using Java 22.0.1 with PID 24352 (started by prave in E:\NewProject\RevTask\RevTask)
+2024-06-19 15:54:42 - No active profile set, falling back to 1 default profile: "default"
+2024-06-19 15:54:43 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 15:54:43 - Finished Spring Data repository scanning in 139 ms. Found 7 JPA repository interfaces.
+2024-06-19 15:54:43 - HikariPool-1 - Starting...
+2024-06-19 15:54:45 - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 84a55d36-de98-4146-8ac3-091084cfb75a
+2024-06-19 15:54:45 - HikariPool-1 - Start completed.
+2024-06-19 15:54:45 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 15:54:45 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-19 15:54:45 - HHH000026: Second-level cache disabled
+2024-06-19 15:54:45 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-19 15:54:47 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-19 15:54:52 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 15:54:53 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-19 15:54:54 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-19 15:54:55 - Started RevTaskApplicationTests in 13.226 seconds (process running for 14.972)
+2024-06-19 15:54:55 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 15:54:55 - HikariPool-1 - Shutdown initiated...
+2024-06-19 15:54:55 - HikariPool-1 - Shutdown completed.
