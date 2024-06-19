@@ -59,6 +59,7 @@ public class ProjectService {
                 .collect(Collectors.toList());
     }
 
+
     public List<ProjectDTO> getProjectsByProjectManagerId(Long projectManagerId) {
         List<Project> projects = projectRepository.findAllByProjectManagerId(projectManagerId);
         return projects.stream()
