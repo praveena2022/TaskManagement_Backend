@@ -55,7 +55,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://delightful-plant-046ea7d0f.5.azurestaticapps.net")
 @RequestMapping("/project-managers")
 public class ProjectManagerController {
 

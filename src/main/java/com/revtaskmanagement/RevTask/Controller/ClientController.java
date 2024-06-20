@@ -51,7 +51,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://delightful-plant-046ea7d0f.5.azurestaticapps.net")
 @RequestMapping("/clients")
 public class ClientController {
 

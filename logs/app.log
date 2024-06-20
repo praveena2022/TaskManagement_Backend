@@ -8924,3 +8924,59 @@ This generated password is for development use only. Your security configuration
 2024-06-19 15:54:55 - Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-06-19 15:54:55 - HikariPool-1 - Shutdown initiated...
 2024-06-19 15:54:55 - HikariPool-1 - Shutdown completed.
+2024-06-19 16:12:33 - Could not detect default configuration classes for test class [com.revtaskmanagement.RevTask.RevTaskApplicationTests]: RevTaskApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-19 16:12:33 - Found @SpringBootConfiguration com.revtaskmanagement.RevTask.RevTaskApplication for test class com.revtaskmanagement.RevTask.RevTaskApplicationTests
+2024-06-19 16:12:34 - Starting RevTaskApplicationTests using Java 22.0.1 with PID 3776 (started by prave in E:\NewProject\RevTask\RevTask)
+2024-06-19 16:12:34 - No active profile set, falling back to 1 default profile: "default"
+2024-06-19 16:12:35 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 16:12:35 - Finished Spring Data repository scanning in 155 ms. Found 7 JPA repository interfaces.
+2024-06-19 16:12:36 - HikariPool-1 - Starting...
+2024-06-19 16:12:38 - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: cfa4b0ec-ea52-4752-826d-816ca6eed6bd
+2024-06-19 16:12:38 - HikariPool-1 - Start completed.
+2024-06-19 16:12:39 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 16:12:39 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-19 16:12:39 - HHH000026: Second-level cache disabled
+2024-06-19 16:12:39 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-19 16:12:42 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-19 16:12:47 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 16:12:48 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-19 16:12:49 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-19 16:12:49 - Started RevTaskApplicationTests in 16.137 seconds (process running for 18.17)
+2024-06-19 16:12:50 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 16:12:50 - HikariPool-1 - Shutdown initiated...
+2024-06-19 16:12:50 - HikariPool-1 - Shutdown completed.
+2024-06-20 13:44:19 - Could not detect default configuration classes for test class [com.revtaskmanagement.RevTask.RevTaskApplicationTests]: RevTaskApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-20 13:44:19 - Found @SpringBootConfiguration com.revtaskmanagement.RevTask.RevTaskApplication for test class com.revtaskmanagement.RevTask.RevTaskApplicationTests
+2024-06-20 13:44:20 - Starting RevTaskApplicationTests using Java 22.0.1 with PID 24644 (started by prave in E:\NewProject\RevTask\RevTask)
+2024-06-20 13:44:20 - No active profile set, falling back to 1 default profile: "default"
+2024-06-20 13:44:22 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-20 13:44:23 - Finished Spring Data repository scanning in 193 ms. Found 7 JPA repository interfaces.
+2024-06-20 13:44:24 - HikariPool-1 - Starting...
+2024-06-20 13:44:28 - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 70d6ac52-fae5-4c2f-9435-d570ba16970a
+2024-06-20 13:44:28 - HikariPool-1 - Start completed.
+2024-06-20 13:44:28 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-20 13:44:28 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-20 13:44:28 - HHH000026: Second-level cache disabled
+2024-06-20 13:44:29 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-20 13:44:32 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-20 13:44:35 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-20 13:44:36 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-20 13:44:37 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-20 13:44:39 - Started RevTaskApplicationTests in 18.901 seconds (process running for 25.822)
+2024-06-20 13:44:40 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-20 13:44:40 - HikariPool-1 - Shutdown initiated...
+2024-06-20 13:44:44 - HikariPool-1 - Shutdown completed.
+2024-06-20 13:44:58 - Could not detect default configuration classes for test class [com.revtaskmanagement.RevTask.RevTaskApplicationTests]: RevTaskApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-20 13:44:59 - Found @SpringBootConfiguration com.revtaskmanagement.RevTask.RevTaskApplication for test class com.revtaskmanagement.RevTask.RevTaskApplicationTests
+2024-06-20 13:45:00 - Starting RevTaskApplicationTests using Java 22.0.1 with PID 17880 (started by prave in E:\NewProject\RevTask\RevTask)
+2024-06-20 13:45:00 - No active profile set, falling back to 1 default profile: "default"
+2024-06-20 13:45:01 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-20 13:45:01 - Finished Spring Data repository scanning in 248 ms. Found 7 JPA repository interfaces.
+2024-06-20 13:45:02 - HikariPool-1 - Starting...
+2024-06-20 13:45:18 - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 8629da30-0c87-4def-ac28-e227dab30213
+2024-06-20 13:45:18 - HikariPool-1 - Start completed.
+2024-06-20 13:45:18 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-20 13:45:18 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-20 13:45:19 - HHH000026: Second-level cache disabled
+2024-06-20 13:45:20 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-20 13:45:23 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
