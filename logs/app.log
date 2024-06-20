@@ -8980,3 +8980,12 @@ This generated password is for development use only. Your security configuration
 2024-06-20 13:45:19 - HHH000026: Second-level cache disabled
 2024-06-20 13:45:20 - No LoadTimeWeaver setup: ignoring JPA class transformer
 2024-06-20 13:45:23 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-20 13:45:26 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-20 13:45:27 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-20 13:45:29 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-20 13:45:29 - Started RevTaskApplicationTests in 30.493 seconds (process running for 33.107)
+2024-06-20 13:45:30 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-20 13:45:31 - HikariPool-1 - Shutdown initiated...
+2024-06-20 13:45:37 - HikariPool-1 - Shutdown completed.
+2024-06-20 13:57:07 - Could not detect default configuration classes for test class [com.revtaskmanagement.RevTask.RevTaskApplicationTests]: RevTaskApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-20 13:57:08 - Found @SpringBootConfiguration com.revtaskmanagement.RevTask.RevTaskApplication for test class com.revtaskmanagement.RevTask.RevTaskApplicationTests
